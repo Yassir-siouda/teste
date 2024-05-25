@@ -131,7 +131,7 @@ const FactureAffichage = () => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <span className="search-icon">🔍</span>
+         
         </div>
         <div className="totals-container">
           <div className="total">
