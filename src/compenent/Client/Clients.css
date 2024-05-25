@@ -175,6 +175,7 @@
   @media only screen and (max-width: 768px) {
     .app-client {
       flex-direction: column;
+      margin-top: -600px;
     }
   
     .menu {
@@ -184,6 +185,7 @@
   
     .client-container {
       order: 2;
+      background-color: #f4f7fa;
     }
   
     .buttons-container {
