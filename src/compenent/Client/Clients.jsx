@@ -99,7 +99,7 @@ const Clients = () => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <span className="search-icon">🔍</span>
+         
         </div>
         <div className="buttons-container">
           <button className="add-btn" onClick={openModal}>Ajouter un Client</button>
